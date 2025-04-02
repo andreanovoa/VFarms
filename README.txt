@@ -1,24 +1,28 @@
-Surrogate modelling of vertical farms
+-----------
+# Surrogate Modelling of Vertical Farms
 
+This project focuses on creating surrogate models for vertical farms, enabling faster simulations and experimentation.
 
-Please, install the required packages in `requirements.txt`
-"""
+---
+
+## Installation
+
+Install the required Python packages:
+
+```bash
 pip install -r requirements.txt
-"""
 
 
-* main_downsample.py - code to pre-process the data and perform a downsampling
-* VF_Surrogate.py - code containing the class of the surrogate model
-* main_surrogate.py  - code for the surogate modelling
-* vfarms_ui.py - wrapper for the ui
-* fns.py - auxiliary file with required functions
-* VF_Surrogate.py - sample simulation of class VF_Surrogate
+-------
 
+## Project Structure
 
-## To run the application, run the following in the terminal
-"""
-streamlit run vfarms_ui.py 
-"""
+main_downsample.py – Pre-processes the data and performs downsampling.
+VF_Surrogate.py – Contains the VF_Surrogate class for surrogate modeling.
+main_surrogate.py – Handles the surrogate modeling workflow.
+vfarms_ui.py – Streamlit UI wrapper for interacting with the model.
+fns.py – Auxiliary functions used throughout the project.
+VF_Surrogate.py – Also includes a sample simulation of the VF_Surrogate class.
 
 
 
