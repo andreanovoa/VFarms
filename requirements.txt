@@ -1,0 +1,13 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+plotly
+streamlit
+open3d
+# For pyCGNS
+cython 
+hdf5 
+VTK 
+Qt 
+pickle
